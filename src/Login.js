@@ -15,6 +15,7 @@ function Login() {
 const login = e => {
     e.preventDefault();
     auth
+    
     .signInWithEmailAndPassword(email, password)
        .then(auth=>{
            history.push('./')

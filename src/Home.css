@@ -1,0 +1,29 @@
+.home__container{
+    
+        position: relative;
+        position: absolute;
+        color:black;
+      }
+      .home{
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+.home__caption{
+    padding:50px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color:white;
+    border: collapse;
+}
+.home__text{
+    color:black;
+}
+.home__row{
+    display:flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}

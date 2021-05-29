@@ -1,7 +1,8 @@
 import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+
 import LanguageIcon from '@material-ui/icons/Language';
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
@@ -42,7 +43,7 @@ function Header() {
       </div>  
       <div className="header__optionBasket">
            
-            <ShoppingBasketIcon />
+      <ShoppingCartIcon />
             <FavoriteBorderIcon />
             <span className="header__optionLineOne header__basketCount">
             { /*{basket?.length} */}

@@ -11,8 +11,8 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 
 
 function Header() {
-    const [{user}, dispatch] = useStateValue();
-
+  
+    const [{ basket,wishlist, user }, dispatch] = useStateValue();
     const handleAuthenticaton = () => {
       if (user) {
         auth.signOut();
@@ -22,11 +22,11 @@ function Header() {
     return (
         <div className="header">
            
-           
+           <Link to='./'>
             <img className="header__logo"
             src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" alt="">
            
-            </img>
+            </img></Link>
            <span class="header__optionLineOne">Categories</span>
         <div className="header__search">
         <SearchIcon className="header__searchIcon" />
@@ -42,11 +42,13 @@ function Header() {
         </div>
       </div>  
       <div className="header__optionBasket">
-           
-      <ShoppingCartIcon />
-            <FavoriteBorderIcon />
+        <Link to="./checkout"> 
+      <ShoppingCartIcon /></Link>  
+            
             <span className="header__optionLineOne header__basketCount">
-            { /*{basket?.length} */}
+            {basket?.length} 
+            <Link to="./checkout">    <FavoriteBorderIcon /></Link>   {wishlist?.length}
+          
             </span>
           </div>
          

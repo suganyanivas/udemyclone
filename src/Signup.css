@@ -26,4 +26,7 @@
     width:20%;
     background-color:red;
     color:white;
+    opacity:1;
+    transition: 0.3s;
 }
+.sign__btn:hover {opacity: 0.6}

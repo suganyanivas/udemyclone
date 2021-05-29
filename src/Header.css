@@ -51,12 +51,17 @@
     color:#2896A9;
     padding:15px;
     margin-right: 10px;
-    
-  }
+    opacity: 1;
+    transition: 0.3s;
+    }
+    .login:hover {opacity: 0.6}
   .signup{
       background-color:#0F7C90;
       color:white;
       padding: 15px;
       margin-right: 10px;
+      opacity: 1;
+  transition: 0.3s;
      }
+     .signup:hover {opacity: 0.6}
     

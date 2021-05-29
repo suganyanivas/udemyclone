@@ -23,3 +23,28 @@
         margin-bottom: 15px;
     
 }
+
+.click__btn {
+    display: flex;
+    flex-direction:row-reverse;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0ee797;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .click__btn:hover {background-color: #3e8e41}
+  
+  .click__btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .red{
+      background-color:rgb(243, 63, 63);
+  }

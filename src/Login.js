@@ -47,7 +47,7 @@ const login = e => {
             <p>or Forgot password</p>
             <p>Don't have an account?
             <Link to="/signup">
-                 Sign up </Link>
+                 Sign Up </Link>
             </p>
             
         </div>

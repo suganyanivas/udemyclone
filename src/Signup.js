@@ -36,7 +36,7 @@ function Signup() {
             <label htmlFor="check" name="check">I’m in for emails with exciting discounts and personalized recommendations</label>
             </p>
         <button type="submit" onClick={signup} className="sign__btn">Sign Up</button>
-        <p>Already have an account? 
+        <p>Already have an Account? 
             <Link to ='./login'>Log In </Link></p>
         </div>
     )

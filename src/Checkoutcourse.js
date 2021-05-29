@@ -20,24 +20,24 @@ function Checkoutcourse({id,image,title,rating,price,hideButton}) {
             <div className="course__info">
                <p className="course__title">{title}</p>
                <div className="course__rating">
-                   {Array(rating)
-                   .fill()
-                   .map((_,i)=>{
-                       <p> 🌟</p>
-                   })
-                   }
+               {Array(rating)
+                    .fill()
+                    .map((_, i) => (
+                        <p>🌟</p>
+                    ))}
                </div>
                <p className="course__price">
                    <small>$</small>
                    <strong>{price}</strong>
                </p>
-             
-            
-            </div>
-            {!hideButton && (
+               {!hideButton && (
                     <button onClick={removeFromBasket}>Remove from Basket</button>
+                    
                 )}
-            
+            <button>save for later</button>
+           <button>Move to wishlist</button>
+            </div>
+           
         </div>
     )
 }

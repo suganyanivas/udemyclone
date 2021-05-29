@@ -4,7 +4,7 @@ import "./Wishlist.css";
 
 
 function Wishlist({id,image,title,rating,price,hideButton}) {
-    const [{ basket,wishlist }, dispatch] = useStateValue();
+    const [{ wishlist }, dispatch] = useStateValue();
 
     const removeFromWishlist = () => {
         // remove the item from the wishlist
@@ -15,16 +15,15 @@ function Wishlist({id,image,title,rating,price,hideButton}) {
     }
     return (
         <div className="course__container">
-              <img className="course__img" src={image} />
+              <img className="course__img" src={image} alt="" />
             <div className="course__info">
                <p className="course__title">{title}</p>
                <div className="course__rating">
-                   {Array(rating)
-                   .fill()
-                   .map((_,i)=>{
-                       <p> 🌟</p>
-                   })
-                   }
+               {Array(rating)
+                    .fill()
+                    .map((_, i) => (
+                        <p>🌟</p>
+                    ))}
                </div>
                <p className="course__price">
                    <small>$</small>

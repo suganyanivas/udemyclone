@@ -1,0 +1,34 @@
+.course__container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.course__info {
+    padding-left: 20px
+}
+
+.course__info > button {
+    background: white;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #4336ee #8e94f0 #acbdeb;
+    color: #111;
+    display: flex;
+    flex-direction: column;
+}
+
+.course__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+
+.course__rating {
+    display: flex;
+  }
+
+.course__title {
+    font-size: 17px;
+    font-weight: 800;
+}

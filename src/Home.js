@@ -43,7 +43,7 @@ function Home() {
             image="https://img-b.udemycdn.com/course/240x135/1010586_b622_3.jpg?secure=3un7ZQpx_QOJr04rpBEPuQ%3D%3D%2C1622325755"
             title="Become a word press developer Unlocking power with code"
             rating={5}
-            price={100}
+            price={600}
          /> 
            {/*course4*/}
            <Course
@@ -51,7 +51,7 @@ function Home() {
             image="https://img-c.udemycdn.com/course/240x135/947098_02ec_2.jpg?Expires=1622336891&Signature=NDkZkWgVztD6pAlV-Ikbgqnpfb--tvAEad1MaRcjWcGsgGleZ1kQfi5zhJUQUgKdveFw8dc5dPiXiW65KNmcv338Z89FchPAWpZLJiZBQVKzF8vNzYNutzYcLjOwHfiOBBDuIboId4723qp8G0HrlYjfhjNWVqEAXqETV57j3AUsVY4~DV1QUr6JGEajjWjhn8Mz-rjVAiwg21MIxnopEILg97YSDXIijU~GKtsbn7nw4K4zxA1TnW48C0lIA-x1ZpxMdZJgxR7o5Bp7~Noqi~wpAzeEdtJ1sbIIwo8C3RjMmLUeSHhS~o3A1H2HemQ2U4uX8PFpbZyRDrvqw77GHg__&Key-Pair-Id=APKAITJV77WS5ZT7262A"
             title="Understanding Typescript-2021 Edition"
             rating={5}
-            price={100}
+            price={700}
          /> 
          {/*course5*/}
          <Course
@@ -59,7 +59,7 @@ function Home() {
             image="https://img-c.udemycdn.com/course/240x135/1313502_b57f_2.jpg?Expires=1622339716&Signature=Sz~xcd9XevLBQJjUqGWfwwJNTzpRVvvHR4ru3V6HPQ94mSq0VOWxclPk-BBTO4jac~zolyrq2veR4PHaL0-yybFEpweva0Xkc1UUAgNSMCbzck4b5e-N9FtFuBVHu2wM8~4TSEQ90Uw6rd3EySOKssH85gWP3QxerzPBbD8dG~gXmtlJgOMO7BX6PFlWEv2fRlY1vRnyBNhIobsB3y54IEfERqnNkc6pfO5WYS1Jk1~f5WJdOFzKN4Hmm57iPHreyOv5tNAHAkMYlA~fhlDpkM4duqTAPRYmdGyQgqiQTY1atioxUjcKXYDyjFapbJqEUjA3qjMy5Yp8Hi6H8x2~dw__&Key-Pair-Id=APKAITJV77WS5ZT7262A"
             title="Bootstrap 4 From Scratch With 5 Projects"
             rating={5}
-            price={100}
+            price={500}
          /> 
           </div>
            {/*  ---------------------second course row* ----------------*/}
@@ -70,7 +70,7 @@ function Home() {
             image="https://img-c.udemycdn.com/course/240x135/3977800_5908_2.jpg?Expires=1622342492&Signature=PF8BFhXCDzguK0JKzkS5inaJa5tFTSLXcTVFeGr~kMcsgOKCsmSVDNS4I24ILbMyFvvu2rpb0jwX3Sg7QUF12Bra-bE1UNO9OEbRw2ZERT8nRXO3wT9TXslcnNu6jVUXMT8ibVZubnvNQMu9bEUWsaecHQiqxaXVXHyzUG1s0MtFju74yRW77Q9akle7O4D6rLXLuzHpsE2X0xpL2tY6fSaEhaz~cLufEbr48Gt--wmzPeHEOjLryw85~4ZBnjzTRDb8lICkZigMbBZuAWix5bdcEwEWxzUvJjWcqosFnCZoAdNtw1nZwVv7HcIITBaWLujxEPvkLH4kufiP5DnKPg__&Key-Pair-Id=APKAITJV77WS5ZT7262A" 
             title="The Data Science MicroDegree: Data Analysis &amp; Visualization"
             rating={5}
-            price={100} /> 
+            price={450} /> 
           {/*course2*/}
           <Course
             id="49538094"
@@ -95,7 +95,7 @@ function Home() {
             image="https://img-b.udemycdn.com/course/240x135/3692428_b767_9.jpg?secure=key0c8BKePZjoQD3annM8g%3D%3D%2C1622350952"
             title="Data cleansing master class in python"
             rating={5}
-            price={100}
+            price={300}
          /> 
          {/*course5*/}
          <Course
@@ -103,7 +103,7 @@ function Home() {
             image="https://img-c.udemycdn.com/course/240x135/4011242_08f1_3.jpg?Expires=1622349484&Signature=h3y7r7d6IhPkvXCqZYUk4ZFTClXyO~EZgGOnLztL9xENnY-HsViz7KLZnxU1mxsTu43SwDJrs1u-mPruiocYgmlkBM6a6ikxk9ByiKu0WgwYV-R2Y~Tf01jkmA3Ah1kK9Lt02OuSsAJ-t1tUB~MCxfUCycItIq576refxv0hWamRV~Vfi2C5M~t1jK0C6WeAjU6~7y9gqIcjmN2bX4VjHuiYEaBr4elPHXyxn~HtDRvXOx9Fbe8ocAm6pbom6nQiuQL5knGUFwOmU9BYFvr8sRJE5POKgRCJXQdRwrHk6HumkqJCFQ4WlBYrn2AvUuAWeJ1FRS9RzZMF3LTDyy-nfA__&Key-Pair-Id=APKAITJV77WS5ZT7262Aori"
             title="Bootstrap 4 From Scratch With 5 Projects"
             rating={5}
-            price={100}
+            price={250}
          /> 
         </div>
        

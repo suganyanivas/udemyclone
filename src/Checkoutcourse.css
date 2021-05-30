@@ -32,3 +32,12 @@
     font-size: 17px;
     font-weight: 800;
 }
+.remove_basket{
+    background-color:rgb(91, 91, 236);
+
+}
+.remove_basket{
+opacity: 1;
+transition: 0.3s;
+   }
+   .remove_basket:hover {opacity: 0.6}

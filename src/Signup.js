@@ -1,5 +1,4 @@
 import React,{ useState} from 'react'
-
 import './Signup.css';
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";

@@ -14,17 +14,18 @@ function Checkout() {
        <h1 className="checkout__cart">Shopping Cart</h1>
         <div>
          
-
+<h3 className="checkout__title">{basket?.length} items in cart</h3>
           {basket.map(item => (
             <Checkoutcourse
-              id={item.id}
+              id={item.id} 
               image={item.image}
               title={item.title}
               rating={item.rating}
               price={item.price}
             />
           ))}
-          {wishlist.map(item => {
+          <h3 className="wishlist">Recently Wishlisted</h3>
+          {wishlist.map(item => (
               <Wishlist
               id={item.id}
               image={item.image}
@@ -32,9 +33,9 @@ function Checkout() {
               rating={item.rating}
               price={item.price}
             />
-          })
+          ))}
 
-          }
+          
 
         </div>
       </div>

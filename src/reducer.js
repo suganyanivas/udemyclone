@@ -47,26 +47,10 @@ const reducer = (state, action) => {
         basket: newBasket
       }
 
-      case "REMOVE_FROM_WISHLIST":
-        index = state.wishlist.findIndex(
-          (wishlistItem) => wishlistItem.id === action.id
-        );
-        let newWishlist = [...state.Wishlist];
-  
-        if (index >= 0) {
-          newWishlist.splice(index, 1);
-  
-        } else {
-          console.warn(
-            `Cant remove product (id: ${action.id}) as its not in wishlist!`
-          )
-        }
+     
      
     
-      return {
-        ...state,
-        wishlist: newWishlist
-      }
+      
     
     case "SET_USER":
       return {

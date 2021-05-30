@@ -31,7 +31,7 @@ function Checkoutcourse({id,image,title,rating,price,hideButton}) {
                    <strong>{price}</strong>
                </p>
                {!hideButton && (
-                    <button onClick={removeFromBasket}>Remove from Basket</button>
+                    <button className="remove_basket" onClick={removeFromBasket}>Remove from Basket</button>
                     
                 )}
             <button>save for later</button>

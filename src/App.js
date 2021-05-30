@@ -10,6 +10,7 @@ import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import Checkout from "./Checkout";
 import Payment from "./Payment";
+import Orders from "./Orders";
 
 function App() {
   
@@ -55,7 +56,7 @@ function App() {
     </Route>
     <Route path="/orders">
   
-      order page
+      <Orders />
     </Route>
     <Route path="/checkout">
    <Checkout />
@@ -63,7 +64,7 @@ function App() {
     </Route>
     
     <Route path="/payment">
-      payment page
+     
       <Payment />
     </Route>
     <Route path="/">

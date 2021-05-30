@@ -8,3 +8,12 @@
     height: 100px;
     align-items:center;
 }
+.wishlist{
+    background-color:red;color:white;
+    font-weight: bold;
+}
+
+.checkout__title{
+    background-color:blue;color:white;
+    font-weight: bold;
+}
